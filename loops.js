@@ -19,7 +19,7 @@ function whileLoop(n) {
 
 function doWhileLoop(array) {
   do {
-    array.pop();
+    array.shift();
   }
   while (array.length  > 0 && doWhileLoop());
   return array;
