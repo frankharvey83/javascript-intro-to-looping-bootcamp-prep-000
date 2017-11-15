@@ -11,7 +11,7 @@ function forLoop(array) {
 }
 
 function whileLoop(n) {
-  let countdown = Math.floor(Math.random() * 100)
+  let countdown = 100)
     while ( countdown > 0 ) {
     console.log(--countdown);
     return 'done';
