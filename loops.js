@@ -10,10 +10,4 @@ function forLoop(array) {
   return array;
 }
 
-function whileLoop(n) {
-  let num = Math.floor(Math.random() * 100)
-    while ( num > 0 ) {
-    console.log(num);
-  }
-    return 'done';
-}
+
